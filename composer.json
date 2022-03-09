@@ -1,0 +1,16 @@
+{
+    "name": "tn-so/tt3-unit-testing",
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bidpath\\Tt3UnitTesting\\": "src/"
+        }
+    },
+    "require": {},
+    "scripts": {
+        "test": "@php ./vendor/phpunit/phpunit/phpunit ./test",
+        "example": "@php ./example.php"
+    }
+}
